@@ -5,11 +5,11 @@ from flask import Flask, jsonify, abort
 from utils import gdrive, MetadataNotFound
 
 MANIFEST = {
-    "id": "ssnjr.stremio.googledrive",
+    "id": "dev.stremio.googledrive",
     "version": "1.0.7",
-    "name": "GDrive",
-    "description": "This plugin fetches content from goolag drive.",
-    "logo": "https://fonts.gstatic.com/s/i/productlogos/drive_2020q4/v8/web-512dp/logo_drive_2020q4_color_1x_web_512dp.png",
+    "name": "dEV",
+    "description": "If you know, you know.",
+    "logo": "https://github.com/roydev19/hehe/raw/main/cover.jpg",
     "resources": ["stream"],
     "types": ["movie", "series"],
     "catalogs": []
