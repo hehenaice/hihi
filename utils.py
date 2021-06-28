@@ -256,7 +256,7 @@ class gdrive:
 
     def get_streams(self, type, id):
         def get_name():
-            return m.get_string(f'GDrive \n;%quality \n;%resolution')
+            return m.get_string(f'dEV \n;%quality \n;%resolution')
 
         def get_title():
             m.get_string('🎥;%codec 🌈;%bitDepth;bit 🔊;%audio 👤;%encoder')
